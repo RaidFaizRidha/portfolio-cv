@@ -215,7 +215,7 @@ h2 {
 
 .agency-animation {
     -webkit-animation: fade-out linear forwards;
-    animation: fade-out linear forward;
+    animation: fade-out linear forwards;
     animation-timeline: view();
     animation-range: exit;
 }
