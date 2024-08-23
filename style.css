@@ -468,6 +468,7 @@ body {
     margin: 10px;
     margin-top: 50px;
     scale: .8; opacity: 0;
+    -webkit-animation: fade-in linear forwards;
     animation: fade-in linear forwards;
     animation-timeline: view();
     animation-range: entry 210px;
@@ -669,6 +670,7 @@ h3 {
     margin: 10px;
     margin-top: 20px;
     scale: .8; opacity: 0;
+    -webkit-animation: fade-in linear forwards;
     animation: fade-in linear forwards;
     animation-timeline: view();
     animation-range: entry;
@@ -693,6 +695,7 @@ h3 {
     padding: 10px;
     margin: 0 60px 0 60px;
     scale: .8; opacity: 0;
+    -webkit-animation: fade-in linear forwards;
     animation: fade-in linear forwards;
     animation-timeline: view();
     animation-range: entry;

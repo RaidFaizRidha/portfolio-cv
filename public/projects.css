@@ -203,6 +203,7 @@ h2 {
 
 .tindog {
     scale: .8; opacity: 0;
+    -webkit-animation: fade-in linear forwards;
     animation: fade-in linear forwards;
     animation-timeline: view();
     animation-range: entry;
@@ -212,7 +213,8 @@ h2 {
     to { scale: 1; opacity: 1;}
 }
 
-/* .agency-animation {
+.agency-animation {
+    -webkit-animation: fade-out linear forwards;
     animation: fade-out linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -220,7 +222,7 @@ h2 {
 
 @keyframes fade-out {
     to { scale: .8; opacity: 0; }
-} */
+}
 
 @media (max-width: 1706px) {
     h2 {
