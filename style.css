@@ -114,6 +114,11 @@ body {
     margin: 10px;
 }
 
+@supports (not (animation: spin 1.5s;)) {
+    .profile-photo {
+        animation: none;
+    }
+}
 
 @keyframes spin {
     from {
@@ -132,7 +137,11 @@ body {
     width: auto;
 }
 
-@supports (no())
+@supports (not (animation: slideright 1.5s;)) {
+    .name-profile {
+        animation: none;
+    }
+}
 
 @keyframes slideright {
     from {
@@ -156,6 +165,12 @@ body {
     margin-right: 10px;
     animation: slideleft 1.5s;
     width: auto;
+}
+
+@supports (not (animation: slideleft 1.5s;)) {
+    .background-profile {
+        animation: none;
+    }
 }
 
 
