@@ -225,7 +225,7 @@ h2 {
     to { scale: .8; opacity: 0; }
 }
 
-@supports (not (animation: animation: fade-out linear forward;;)) {
+@supports (not (animation: animation: fade-out linear forward;)) {
     .agency-animation {
         animation: none;
     }
