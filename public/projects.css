@@ -215,13 +215,20 @@ h2 {
 
 .agency-animation {
     -webkit-animation: fade-out linear forwards;
-    animation: fade-out linear forwards;
+    animation: fade-out linear forward;
     animation-timeline: view();
     animation-range: exit;
 }
 
 @keyframes fade-out {
+    from { scale: 1; opacity: 1; }
     to { scale: .8; opacity: 0; }
+}
+
+@supports (not (animation: animation: fade-out linear forward;;)) {
+    .agency-animation {
+        animation: none;
+    }
 }
 
 @media (max-width: 1706px) {
