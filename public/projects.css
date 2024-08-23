@@ -212,7 +212,7 @@ h2 {
     to { scale: 1; opacity: 1;}
 }
 
-.agency-animation {
+/* .agency-animation {
     animation: fade-out linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -220,7 +220,7 @@ h2 {
 
 @keyframes fade-out {
     to { scale: .8; opacity: 0; }
-}
+} */
 
 @media (max-width: 1706px) {
     h2 {
